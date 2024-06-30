@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+body{
+  height:100vh;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  margin-top: 10px;
+}
+
+.pagination button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.pagination button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
